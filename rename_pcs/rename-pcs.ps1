@@ -1,5 +1,5 @@
 ﻿### BATCH RENAME PCs
-# Open modal to ask for admin credentials
+# Open modal to ask for admin credentials. Set these as a variable.
 $admincredentials = Get-Credential
 # Set variable - import data from CSV
 $list = Import-Csv c:\scripts\list.csv -Header OldName,NewName
