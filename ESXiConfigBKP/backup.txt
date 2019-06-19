@@ -1,0 +1,3 @@
+vim-cmd hostsvc/firmware/sync_config
+vim-cmd hostsvc/firmware/backup_config
+exit
